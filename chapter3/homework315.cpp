@@ -12,7 +12,7 @@ class Date {
         year=y;
       }
       void setMonth(int m){         //这里是对月份进行错误修正，防止超出范围
-        if(m>=1&&m<=12){           //运用了if语句
+        if(m>=1&&m<=12){           
             month=m;
         }
         else{
